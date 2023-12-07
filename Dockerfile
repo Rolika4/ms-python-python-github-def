@@ -4,4 +4,5 @@ EXPOSE 8080
 COPY . .
 RUN python setup.py install
 
+
 CMD ["python3", "./server.py"]
